@@ -29,8 +29,6 @@ def graphs():
 
 
 def sessions():
-    # Setup graph
-
     # Run on CPU 0
     with tf.device('/cpu:0'):
         a = tf.constant(10)
